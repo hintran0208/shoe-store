@@ -22,7 +22,7 @@ function ProductInfo({ product }) {
               <h4 className="size-text">Available Size</h4>
 
               <div className="size">
-                {Array(7)
+                {/* {Array(7)
                   .join(0)
                   .split(0)
                   .map(
@@ -30,10 +30,10 @@ function ProductInfo({ product }) {
     <a href="#">${product?.size[i]}</a>
   `
                   )
-                  .join('')}
+                  .join('')} */}
               </div>
 
-              <h3 className="price">${product.price}$</h3>
+              <h3 className="price">${product.price}</h3>
               <div className="group-input">
                 <button o className="disable">
                   +
