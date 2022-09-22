@@ -8,12 +8,12 @@ function Header(props) {
     <header className="header">
       <div className="header-top">
         <div className="logo">
-          <img src="https://thanh-quy-minh-luan-cap-stone-api-bc-33.vercel.app/img/image%203.png" alt="" />
+          <img src={require('../../img/image3.png')} alt="" />
         </div>
         <div className="login-register">
           <i className="fa-solid fa-cart-shopping">(1)</i>
           <a href="#">Login</a>
-          <a href="https://thanh-quy-minh-luan-cap-stone-api-bc-33.vercel.app/page/register.html">Register</a>
+          <a href="">Register</a>
         </div>
       </div>
       <div className="header-bottom">
